@@ -10,6 +10,7 @@ public class CadastroActivity extends AppCompatActivity {
     private Button buttonRetornar;
     private Button buttonPontosColeta;
     private Button buttonDiaTurnoColeta;
+    private DBHelper dbHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,8 @@ public class CadastroActivity extends AppCompatActivity {
             }
         });
     }
+
+
 
     private void retornarParaTelaInicial() {
         finish(); // Fecha a atividade atual e retorna para a tela anterior (MainActivity)

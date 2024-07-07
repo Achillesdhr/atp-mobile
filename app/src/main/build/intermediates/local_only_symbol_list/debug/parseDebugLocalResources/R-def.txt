@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonDiaTurnoColeta
+id buttonPontosColeta
+id buttonRetornar
+id button_cadastro
+id button_coleta
+id button_turno
+id editTextNome
+id editTextRua
+id editarCadastro
+id main
+id spinnerBairro
+id textView
+id toolbar
+layout activity_cadastro
+layout activity_main
+menu menu_principal
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string editar_cadastro
+style Base.Theme.Atp_mobile
+style Theme.Atp_mobile
+xml backup_rules
+xml data_extraction_rules
